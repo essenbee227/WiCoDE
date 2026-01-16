@@ -59,9 +59,7 @@ export function Navigation() {
                   {item.label}
                 </a>
               ))}
-              <button className="px-6 py-2 bg-accent text-accent-foreground hover:bg-accent/90 transition-colors duration-200 text-sm uppercase tracking-wider" style={{ fontWeight: 600 }}>
-                Register
-              </button>
+
             </div>
 
             {/* Mobile Menu Button */}
@@ -97,14 +95,7 @@ export function Navigation() {
                 {item.label}
               </motion.a>
             ))}
-            <motion.button
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: navItems.length * 0.1 }}
-              className="px-8 py-3 bg-accent text-accent-foreground text-lg uppercase tracking-wider" style={{ fontWeight: 600 }}
-            >
-              Register
-            </motion.button>
+
           </div>
         </motion.div>
       )}
