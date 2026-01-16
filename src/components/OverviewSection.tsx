@@ -40,7 +40,7 @@ export function OverviewSection() {
           </div>
           
           <h2 className="text-5xl md:text-6xl lg:text-7xl tracking-tight leading-tight mb-8" style={{ fontWeight: 700 }}>
-            <span className="text-white">A Flagship Conference</span>
+            <span className="text-white">A Flagship Event</span>
           </h2>
         </motion.div>
 
@@ -53,7 +53,7 @@ export function OverviewSection() {
           className="space-y-6"
         >
           <p className="text-xl text-muted-foreground leading-relaxed">
-            A two-day flagship conference celebrating and advancing women in computing and technology.
+            A two-day flagship event celebrating and advancing women in computing and technology.
           </p>
           
           <div className="h-px w-full bg-border" />

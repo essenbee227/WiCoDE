@@ -70,23 +70,21 @@ export function HeroSection() {
             </span>
           </div>
 
-          <h1 className="text-6xl md:text-8xl lg:text-9xl tracking-tight mb-4 leading-none">
-            <span className="block text-white" style={{ fontWeight: 700 }}>
-              ACM Celebration
+          <div className="my-12">
+            <h1 className="text-6xl md:text-8xl lg:text-9xl tracking-tight" style={{ fontWeight: 700 }}>
+              <span className="bg-gradient-to-r from-[#E879F9] via-[#D8B4FE] to-white bg-clip-text text-transparent">WiCoDE26</span>
+            </h1>
+          </div>
+          <h2 className="text-4xl md:text-5xl lg:text-6xl tracking-tight mb-4 leading-none">
+            <span className="block text-white" style={{ fontWeight: 500 }}>
+              Celebration of Women In
             </span>
-            <span className="block text-white mt-2" style={{ fontWeight: 700 }}>
-              of Women in
-            </span>
-            <span className="block bg-gradient-to-r from-[#E879F9] via-[#D8B4FE] to-white bg-clip-text text-transparent mt-2" style={{ fontWeight: 700 }}>
+            <span className="block bg-gradient-to-r from-[#E879F9] via-[#D8B4FE] to-white bg-clip-text text-transparent mt-2" style={{ fontWeight: 500 }}>
               Computing
             </span>
-          </h1>
+          </h2>
 
-          <div className="my-12">
-            <h2 className="text-4xl md:text-6xl lg:text-7xl tracking-tight" style={{ fontWeight: 600 }}>
-              <span className="bg-gradient-to-r from-[#E879F9] via-[#D8B4FE] to-white bg-clip-text text-transparent">WiCoDE26</span>
-            </h2>
-          </div>
+  
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-8 mb-12 text-muted-foreground text-lg">
             <div className="flex items-center gap-2">

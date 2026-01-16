@@ -49,7 +49,7 @@ export function ProgramSection() {
         >
           <div className="flex items-center justify-center gap-4 mb-8">
             <div className="h-px w-16 bg-accent" />
-            <span className="text-accent uppercase tracking-[0.3em] text-xs">Program</span>
+            <span className="text-accent uppercase tracking-[0.3em] text-xs">Agenda</span>
             <div className="h-px w-16 bg-accent" />
           </div>
           

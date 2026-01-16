@@ -61,13 +61,10 @@ export function AudienceSection() {
           transition={{ duration: 0.8 }}
           className="max-w-3xl mb-20"
         >
-          <div className="flex items-center gap-4 mb-8">
-            <div className="h-px w-16 bg-accent" />
-            <span className="text-accent uppercase tracking-[0.3em] text-xs">Audience</span>
-          </div>
+
           
           <h2 className="text-5xl md:text-6xl lg:text-7xl tracking-tight leading-tight" style={{ fontWeight: 700 }}>
-            <span className="text-white">Who Should Attend</span>
+            <span className="text-white">Who Should Attend?</span>
           </h2>
         </motion.div>
 
