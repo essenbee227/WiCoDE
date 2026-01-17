@@ -19,7 +19,7 @@ https://www.figma.com/design/rwRQJWfWt0W377qjC7rCVC/Interactive-Event-Website-De
 
 ## Tech Stack
 
-- **Framework:** React / Next.js
+- **Framework:** React + VITE
 - **Styling:** Tailwind CSS
 - **Animations:** Framer Motion
 - **Package Manager:** npm

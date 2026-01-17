@@ -36,8 +36,8 @@ export function HeroSection() {
       />
       
       {/* Magenta geometric shapes */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-[#E879F9] opacity-10 rounded-full blur-3xl" />
-      <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#22D3EE] opacity-10 rounded-full blur-3xl" />
+      <div className="absolute top-0 right-0 w-[700px] h-[700px] bg-[#E879F9] opacity-10 rounded-full blur-3xl" />
+      <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-[#22D3EE] opacity-10 rounded-full blur-3xl" />
       
       {/* Animated wireframe background */}
       <div className="absolute inset-0 opacity-30">

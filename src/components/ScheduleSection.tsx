@@ -12,7 +12,7 @@ const schedule = [
       { time: '09:30 AM', title: 'Registration', description: 'Check-in and welcome refreshments' },
       { time: '10:00 AM', title: 'Inaugural Ceremony', description: 'Opening keynote and event introduction' },
       { time: '10:30 AM', title: 'Technical Talk', description: 'Expert insights on emerging technologies' },
-      { time: '11:00 PM', title: 'Ideathon', description: 'Collaborative innovation and brainstorming session' },
+      { time: '11:00 AM', title: 'Ideathon', description: 'Collaborative innovation and brainstorming session' },
       { time: '02:00 PM', title: 'Pitches & Presentations', description: 'Team presentations and feedback sessions' },
       { time: '03:30 PM', title: 'Closing Remarks'}
     ]
@@ -25,7 +25,7 @@ const schedule = [
     sessions: [
       { time: '9:30 AM', title: 'Technical Talk', description: 'Advanced computing topics and research' },
       { time: '10:00 AM', title: 'Student Tech Showcase', description: 'Student-led technology demonstrations' },
-      { time: '11:00 PM', title: 'Creative Poster Presentation', description: 'Visual research and project displays' },
+      { time: '11:00 AM', title: 'Creative Poster Presentation', description: 'Visual research and project displays' },
       { time: '02:00 PM', title: 'ACM-W Panel Discussion', description: 'Women in tech leadership panel' },
       { time: '03:00 PM', title: 'Recognition & Honours Ceremony', description: 'Awards and vote of thanks' }
     ]

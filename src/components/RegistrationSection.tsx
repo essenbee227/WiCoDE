@@ -146,7 +146,7 @@ export function RegistrationSection() {
           className="text-center mt-16"
         >
           <p className="text-6xl md:text-8xl lg:text-9xl tracking-tighter text-white/5 select-none" style={{ fontWeight: 900 }}>
-            WiCoDE25
+            WiCoDE26
           </p>
         </motion.div>
       </div>
