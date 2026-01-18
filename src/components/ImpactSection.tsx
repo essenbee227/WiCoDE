@@ -43,7 +43,7 @@ export function ImpactSection() {
           </div>
           
           <h2 className="text-5xl md:text-6xl lg:text-7xl tracking-tight leading-tight mb-8" style={{ fontWeight: 700 }}>
-            <span className="text-white">Why This Event Matters</span>
+            <span className="text-white">Why Does This Event Matter?</span>
           </h2>
         </motion.div>
 
