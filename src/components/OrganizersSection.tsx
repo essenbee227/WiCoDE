@@ -64,7 +64,7 @@ export function OrganizersSection() {
                 hover:border-accent hover:bg-secondary/40 
                 transition-all duration-300"                >
               <img
-                src="/logos/ACM-BPDC-Logo.jpg"
+                src="/logos/ACM-BPDC-Logo.png"
                 alt="ACM BPDC Logo"
                 className="h-full w-full object-contain p-6 transition-transform duration-300 group-hover:scale-105"
              />
@@ -107,7 +107,7 @@ export function OrganizersSection() {
                 hover:border-accent hover:bg-secondary/40 
                 transition-all duration-300"            >               
               <img
-                src="/logos/ACM-UoS-logo.jpg"
+                src="/logos/ACM-UoS-logo.png"
                 alt="ACM-UoS-logo"
                 className="h-full w-full object-contain p-6 transition-transform duration-300 group-hover:scale-105"
               />
