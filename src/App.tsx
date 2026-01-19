@@ -6,9 +6,9 @@ import { MissionSection } from './components/MissionSection';
 import { AudienceSection } from './components/AudienceSection';
 import { ProgramSection } from './components/ProgramSection';
 import { ImpactSection } from './components/ImpactSection';
-import { OrganizersSection } from './components/OrganizersSection';
 import { ScheduleSection } from './components/ScheduleSection';
 import { RegistrationSection } from './components/RegistrationSection';
+import { OrganizersSection } from './components/OrganizersSection';
 import { Footer } from './components/Footer';
 
 export default function App() {
@@ -21,6 +21,10 @@ export default function App() {
         
         <div id="overview">
           <OverviewSection />
+        </div>
+
+        <div id="schedule">
+          <ScheduleSection />
         </div>
         
         <div id="mission">
@@ -35,15 +39,14 @@ export default function App() {
         
         <ImpactSection />
         
-        <OrganizersSection />
         
-        <div id="schedule">
-          <ScheduleSection />
-        </div>
         
         <div id="register">
           <RegistrationSection />
         </div>
+
+        <OrganizersSection />
+
       </main>
       
       <Footer />

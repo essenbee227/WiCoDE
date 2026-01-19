@@ -107,7 +107,7 @@ export function OrganizersSection() {
                 hover:border-accent hover:bg-secondary/40 
                 transition-all duration-300"            >               
               <img
-                src="/logos/ACM-UoS-logo.png"
+                src="/logos/ACM-UoS-Logo.png"
                 alt="ACM-UoS-logo"
                 className="h-full w-full object-contain p-6 transition-transform duration-300 group-hover:scale-105"
               />
@@ -132,6 +132,21 @@ export function OrganizersSection() {
             In collaboration with ACM student chapters across the region
           </p>
         </motion.div>
+
+
+                {/* Bottom decorative text */}
+                <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, delay: 0.8 }}
+          className="text-center mt-16"
+        >
+          <p className="text-6xl md:text-8xl lg:text-9xl tracking-tighter text-white/5 select-none" style={{ fontWeight: 900 }}>
+            WiCoDE26
+          </p>
+        </motion.div>
+        
       </div>
     </section>
   );

@@ -134,24 +134,7 @@ export function ScheduleSection() {
           ))}
         </div>
 
-        {/* Event note */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-center"
-        >
-          <div className="inline-flex items-center gap-4 px-8 py-4 border border-accent/30 bg-accent/5">
-            <span className="text-accent text-xl" style={{ fontWeight: 700 }}>
-              FREE Event
-            </span>
-            <div className="w-px h-6 bg-border" />
-            <span className="text-white">
-              Refreshments Provided
-            </span>
-          </div>
-        </motion.div>
+
       </div>
     </section>
   );

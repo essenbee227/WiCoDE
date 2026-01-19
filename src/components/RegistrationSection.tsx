@@ -7,8 +7,8 @@ const benefits = [
   'Participation in hands-on workshops',
   'Networking opportunities with industry leaders',
   'Student showcase viewing access',
-  'Conference materials and resources',
-  'Certificate of attendance'
+  'Certificate of attendance',
+  'Free event with refreshments provided'
 ];
 
 export function RegistrationSection() {
@@ -54,7 +54,7 @@ export function RegistrationSection() {
                 transition={{ duration: 0.6 }}
               >
                 <div className="inline-block mb-6">
-                  <span className="px-6 py-2 bg-accent text-accent-foreground uppercase tracking-[0.3em] text-xs" style={{ fontWeight: 600 }}>
+                  <span className="px-6 py-2 text-accent uppercase tracking-[0.3em] text-xs" style={{ fontWeight: 600 }}>
                     Join Us
                   </span>
                 </div>
@@ -137,18 +137,6 @@ export function RegistrationSection() {
           </div>
         </motion.div>
 
-        {/* Bottom decorative text */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.8 }}
-          className="text-center mt-16"
-        >
-          <p className="text-6xl md:text-8xl lg:text-9xl tracking-tighter text-white/5 select-none" style={{ fontWeight: 900 }}>
-            WiCoDE26
-          </p>
-        </motion.div>
       </div>
     </section>
   );
