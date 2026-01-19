@@ -4,8 +4,6 @@ import { HeroSection } from './components/HeroSection';
 import { OverviewSection } from './components/OverviewSection';
 import { MissionSection } from './components/MissionSection';
 import { AudienceSection } from './components/AudienceSection';
-import { ProgramSection } from './components/ProgramSection';
-import { ImpactSection } from './components/ImpactSection';
 import { ScheduleSection } from './components/ScheduleSection';
 import { RegistrationSection } from './components/RegistrationSection';
 import { OrganizersSection } from './components/OrganizersSection';
@@ -33,11 +31,9 @@ export default function App() {
         
         <AudienceSection />
         
-        <div id="program">
-          <ProgramSection />
-        </div>
         
-        <ImpactSection />
+        
+       
         
         
         
