@@ -5,8 +5,8 @@ import { Menu, X } from 'lucide-react';
 
 const navItems = [
   { label: 'Overview', href: '#overview' },
-  { label: 'Mission', href: '#mission' },
   { label: 'Schedule', href: '#schedule' },
+  { label: 'Mission', href: '#mission' },
   { label: 'Register', href: '#register' }
 ];
 
